@@ -13,9 +13,21 @@ public class MathController {
     public Double greeting(
             @PathVariable(value = "numberOne") String numberOne,
             @PathVariable(value = "numberTwo") String numberTwo
-            )
-    {
-        return Double.parseDouble(numberOne)+Double.parseDouble(numberTwo);
+            ) throws Exception {
+
+        if (!isNumeric(numberOne) || !isNumeric(numberTwo) ){
+            throw new Exception();
+        }
+
+        return convertToDouble(numberOne) + convertToDouble(numberTwo);
+    }
+
+    private Double convertToDouble(String strNumber) {
+        return Double.parseDouble(strNumber);
+    }
+
+    private boolean isNumeric(String strNumber) {
+        return false;
     }
 
 }

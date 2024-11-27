@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c9032a4-5c8c-4677-9856-d3618324e8c7" name="Changes" comment="" />
+    <list default="true" id="2c9032a4-5c8c-4677-9856-d3618324e8c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
     "Application.StartUp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "secao6-PathParam-Exceptions",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/etaniel/Documentos/Desenvolvimento/Rest-spring-Erudio",
     "project.structure.last.edited": "Project",

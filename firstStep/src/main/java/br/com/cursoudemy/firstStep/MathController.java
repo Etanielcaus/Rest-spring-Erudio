@@ -1,5 +1,6 @@
 package br.com.cursoudemy.firstStep;
 
+import br.com.cursoudemy.firstStep.excpetions.UnsupportedMathOperationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
@@ -18,7 +19,7 @@ public class MathController {
             ) throws Exception {
 
         if (!isNumeric(numberOne) || !isNumeric(numberTwo)) {
-            throw new Exception();
+            throw new UnsupportedMathOperationException("Please set a numeric value");
         }
 
         return convertToDouble(numberOne) + convertToDouble(numberTwo);

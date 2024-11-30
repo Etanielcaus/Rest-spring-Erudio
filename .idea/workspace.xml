@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9032a4-5c8c-4677-9856-d3618324e8c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

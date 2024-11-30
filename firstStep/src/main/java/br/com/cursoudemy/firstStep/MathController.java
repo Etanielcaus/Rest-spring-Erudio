@@ -51,6 +51,19 @@ public class MathController {
         return convertToDouble(numberOne) / convertToDouble(numberTwo);
     }
 
+    @RequestMapping(value = "/multiplication/{numberOne}/{numberTwo}", method = RequestMethod.GET)
+    public Double multiplication(
+            @PathVariable(value = "numberOne") String numberOne,
+            @PathVariable(value = "numberTwo") String numberTwo
+    ) throws Exception {
+
+        if (!isNumeric(numberOne) || !isNumeric(numberTwo)) {
+            throw new UnsupportedMathOperationException("Please set a numeric value");
+        }
+
+        return convertToDouble(numberOne) * convertToDouble(numberTwo);
+    }
+
     @RequestMapping(value = "/media/{numberOne}/{numberTwo}/{numberThree}", method = RequestMethod.GET)
     public Double media(
             @PathVariable(value = "numberOne") String numberOne,

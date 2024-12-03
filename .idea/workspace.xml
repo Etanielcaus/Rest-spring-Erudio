@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c9032a4-5c8c-4677-9856-d3618324e8c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/service/MathService.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstStep/src/main/java/br/com/cursoudemy/firstStep/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FirstStepApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StartUp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;secao6-PathParam-Exceptions&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/etaniel/Documentos/Desenvolvimento/Rest-spring-Erudio&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.FirstStepApplication.executor": "Run",
+    "Application.StartUp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "VerbosHTTP",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/etaniel/Documentos/Desenvolvimento/Rest-spring-Erudio",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

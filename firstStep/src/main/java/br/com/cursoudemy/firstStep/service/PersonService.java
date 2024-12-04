@@ -39,8 +39,22 @@ public class PersonService {
         return person;
     }
 
+    public Person create(Person person){
+        logger.info("creating person");
+        return person;
+    }
 
-    private Person mockPeson(int i) {
+    public Person update(Person person){
+        logger.info("updating person");
+        return person;
+    }
+
+
+    public void delete(String id) {
+        logger.info("Delete Person");
+    }
+
+    public Person mockPeson(int i) {
         Person person = new Person();
         person.setId(atomicLong.incrementAndGet());
         person.setFirstName("First name " + i);

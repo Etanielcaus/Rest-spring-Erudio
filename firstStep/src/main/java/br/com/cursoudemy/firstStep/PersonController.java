@@ -4,9 +4,12 @@ import br.com.cursoudemy.firstStep.model.Person;
 import br.com.cursoudemy.firstStep.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.awt.*;
+import java.util.List;
 
 @RequestMapping("/person")
 @RestController
@@ -14,6 +17,13 @@ public class PersonController {
 
     @Autowired
     private PersonService personService;
+
+    @RequestMapping(value = "/findAll",
+            method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<Person> findAll() {
+        return personService.findAll();
+    }
 
     @RequestMapping(value = "/{id}",
             method = RequestMethod.GET,
